@@ -241,3 +241,61 @@ body{
     height: 70vh;
     padding: 5rem 2rem;
 }
+
+/*---------contact page--------------------*/
+.form-container{
+    padding: 5rem 0;
+    align-items: center;
+    background-color: #773CC2;
+    min-height: 150vh;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #5C24A4;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:#773CC2;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .f-bg {
+    margin: 0 10rem;
+    background-color: white;
+    padding: 3.5rem 5rem;
+  }
+
+  .contact-info{
+    margin: 2rem 15rem;
+    gap: 5rem;
+    display: flex;
+  }
+.contact-info li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.contact-info li a:hover{
+    color: #6526b9;
+}
