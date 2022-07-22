@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+.h-container{
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid #E8DBDB;
+}
+.navigation{
+    min-height: 10vh;
+    margin: 0 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item li{
+    margin: 0 1.5rem;
+}
+.nav-item li a{
+    color: #413939;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.nav-item li a:hover{
+    color: #5C24A4;
+}
+.logo{
+    cursor: pointer;
+    font-family: 'Inter';
+    color: #413939;
+    font-size: 32;
+    font-weight: 100;
+}
+.Get-btn{
+    background-color: #5C24A4;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Get-btn:hover{
+    background-color: #6b43a1;
+}
+
+/* -------------------main content-------------*/
+.M-content{
+    margin: 0 3.5rem;
+    display: flex;
+}
+.left-content h2{
+    margin-top: 7rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 70px;
+    color: #464343;
+}
+.M-content span, .s-info span{
+    color: #5C24A4;
+}
+.main-btn{
+    font-family: 'Poppins';
+    font-size: 25;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    background-color: #5C24A4;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main-btn:hover{
+    padding: 1rem 4.3rem;
+}
+.right-content{
+    margin-top: 3rem;
+    margin-left: 9rem;
+
+}
+
+/* -------------------services-------------*/
+
+.services{
+    margin-top: 1rem;
+    padding-top: 5rem;
+    background-color: #773CC2;
+    height: 100vh;
+    text-align: center;
+}
+.s-info{
+    margin-right: 5rem;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter';
+}
+
+.s-info p{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    margin: 4rem 10rem;
+
+}
+.left-card{
+    background-color: #5C24A4;
+    color: white;
+    width: 100%;
+    padding: 4rem 9rem;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 10rem;
+}
+.left-card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.right-card{
+    background-color: #5C24A4;
+    color: white;
+    width: 100%;
+    padding: 4rem 9rem;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+}
+.right-card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* -------------------footer-------------*/
+
+.footer-con{
+    padding: 4.5rem 5rem;
+    background-color: #5C24A4;
+    height: 65vh;
+    color: white;
+}
+.logo2{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 30px;
+    padding-bottom: 2.5rem;
+}
+
+.f-links{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.left-list li a, .mid-list li a, .right-list li a{
+    color: white;
+    font-size: 15px;
+    margin-right: 13rem;
+    transition: 0.5s;
+}
+.footer-con p a{
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.left-list li a:hover, .mid-list li a:hover,.right-list li a:hover, .footer-con p a:hover{
+    color: #bda7d9;
+}
+.left-link p, .right-link p, .mid-link p, .footer-con p span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.images{
+    margin: 0;
+}
+
+
+/*---------services page--------------------*/
+
+
+.S-background{
+    min-height: 68vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/xchange.jpg);
+    opacity: 0.87;
+    text-align: center;
+}
+.s-page{
+    min-height: 100vh;
+}
+.s-text{
+    padding-top: 13rem;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+.main-services{
+    display: flex;
+    margin: 1rem 6rem;
+}
+.left-service{
+    width: 100%;
+    height: 70vh;
+    padding: 3rem 2rem;
+    color: rgb(77, 71, 71);
+    text-align:left;
+    margin-right: 2rem;
+}
+.left-service p{
+    line-height: 33px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.right-service{
+    width: 100%;
+    height: 70vh;
+    padding: 5rem 2rem;
+}
